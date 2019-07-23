@@ -26,8 +26,8 @@ Pre-commit scripts appropiate for *any* PHP project. These hooks are made as cus
 
 ```yaml
 repos:
-- repo: git@bitbucket.org/dbaratti/pre-commit.git
-  rev: 1.2.1
+- repo: https://dbaratti@bitbucket.org/dbaratti/pre-commit.git
+  rev: 1.0.0
   hooks:
   - id: php-lint
   - id: php-cs
