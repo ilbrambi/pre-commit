@@ -13,6 +13,7 @@ Pre-commit scripts appropiate for *any* PHP project. These hooks are made as cus
 
 - Be sure you have pip installed
 - Run `pip install pre-commit`
+- Install pre-commit `snap install pre-commit` or `apt-get install pre-commit`
 
 
 #### Common steps
