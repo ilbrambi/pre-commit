@@ -19,7 +19,7 @@ Pre-commit scripts appropiate for *any* PHP project. These hooks are made as cus
 #### Common steps
 
 - Be sure you have installed [composer](https://getcomposer.org/download/) globally.
-- Ensure you have `~/.composer/vendor/bin` into your PATH
+- Ensure you have `~/.composer/vendor/bin` into your PATH - [informations here](https://unix.stackexchange.com/questions/26047/how-to-correctly-add-a-path-to-path)
 - run `composer global require "squizlabs/php_codesniffer=*"`.
 - run `composer global require friendsofphp/php-cs-fixer`.
 
